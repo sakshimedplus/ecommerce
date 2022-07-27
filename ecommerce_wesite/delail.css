@@ -1,73 +1,71 @@
-.detail_heading{
-  padding: 3%;
-  margin: 2%;
+.detail_heading {
+  padding-top:3%;
+  margin: 1%;
 }
-.detailimg{
+.detailimg {
 height: 48%;
 width:47%;
 margin: 1%;
 border-radius: 2%;
 }
 .detailimg:hover,.ful_detailimg:hover {opacity: 0.7;}
-.ful_detailimg{
+.ful_detailimg { 
 height: 98%;
 width: 98%;
 margin:1%;
 border-radius: 2%;
 }
-.contents{
+.contents {
     /* background-color: aqua; */
     display: flex;
 
 }
-.pics{
+.pics {
     /* background-color: antiquewhite; */
     width: 47%;
   margin:0.4%;
 }
 
-.ful_pic{
+.ful_pic {
    /* background-color: aquamarine; */
    margin:2%;
     
 }
 .button2:hover,.button1:hover {
     /* background-color: yellow; */
-    opacity: 0.7;
+    opacity: 0.;
     
   }
-.min_pic{
+.min_pic {
     /* background-color: blue; */
     margin:1%;
 }
-.de_details{
+.de_details {
     /* background-color: brown; */
     width:30%;
     margin:0.5%;
 }
-.star .i{
-  font-size: 24px;
-  color: rgb(243, 181, 25);
-}
-.button2,.button1 {
+#button2,#button1 {
   border: none;
   color:whitesmoke;
   padding: 10%;
-  width: 100%;
-  text-align: center;
+  width: 38vh ;
+  text-align: justify;
   text-decoration: none;
   display: flex;
-  font-size: 20px;
-  margin: 4px 2px;
+  font-size: 30px;
+  margin: 16px 2px;
   cursor: pointer;
   border-radius: 8%;
-  width: max-content;
 }
-.button2{
+#button2{
   background-color: rgb(230, 221, 35);
 }
-.button1 {
+#button1 {
   background-color: aquamarine;
+}
+#button1 .a .i .cart {
+  color: rgb(13, 13, 13);
 }
 .adds{
     /* background-color: rgb(234, 132, 8); */
