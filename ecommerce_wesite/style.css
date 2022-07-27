@@ -141,7 +141,9 @@ body {
 
 #product1 .pro,
 #product2 .pro {
-  width: 23%;
+  /* width: 20vw; */
+  height: 45vh;
+  min-height: 33vh;
   min-width: 250px;
   padding: 10px 12px;
   border: 1px solid #cce7d8;
@@ -155,9 +157,9 @@ body {
 
 #product1 .pro img,
 #product2 .pro img {
-  width: 100%;
+  /* width: 80%; */
   border-radius: 20px;
-  height: 80%;
+   height: 65%;
  
 }
 #product2 .pro img{
@@ -217,9 +219,12 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
-
+#product1.pro_container.fridge_img{ 
+ width: 50%; 
+  
+}
 footer {
   display: flex;
   flex-wrap: wrap;
