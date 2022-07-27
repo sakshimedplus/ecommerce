@@ -1,3 +1,7 @@
+.detail_heading{
+  padding: 3%;
+  margin: 2%;
+}
 .detailimg{
 height: 48%;
 width:47%;
@@ -27,8 +31,9 @@ border-radius: 2%;
    margin:2%;
     
 }
-.ful_pic:hover {
+.button2:hover,.button1:hover {
     /* background-color: yellow; */
+    opacity: 0.7;
     
   }
 .min_pic{
@@ -39,6 +44,30 @@ border-radius: 2%;
     /* background-color: brown; */
     width:30%;
     margin:0.5%;
+}
+.de_details .des .star .i{
+  font-size: 24px;
+  color: rgb(243, 181, 25);
+}
+.button2,.button1 {
+  border: none;
+  color:whitesmoke;
+  padding: 10%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8%;
+  width: max-content;
+}
+.button2{
+  background-color: rgb(230, 221, 35);
+}
+.button1 {
+  background-color: aquamarine;
 }
 .adds{
     /* background-color: rgb(234, 132, 8); */
@@ -68,5 +97,6 @@ border-radius: 2%;
   /* background-color: rgb(234, 132, 8); */
   width:99%;
 }
-
 }
+
+
