@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>details</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="delail.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <section id="header">
+            <a href="#"><img src="img/panda21.png" alt="logo" class="logo" /></a>
+      
+            <div>
+              <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li>
+                  <a href="cart.html"
+                    ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        <div class="contents">
+        <div class="pics">
+        <div class="ful_pic">
+    <img class="ful_detailimg" id="im1" src="img/electronics/epa1_1.jpg" alt="">
+    </div>
+    <div class="min_pic">
+      <img id="im2" class="detailimg" src="pic/fhs1_1.jpg" >
+        <img id="im3" class="detailimg" src="pic/fhs1_2.jpg"  >
+    </div>
+</div>
+<div class="de_details">
+  <div class="des">
+    <span> Adidas</span>
+    <h5>Leaf Printed Shirt</h5>
+    <div class="star">
+      <i class="fa-solid fa-star-o" aria-hidden="true"></i>
+      <i class="fa-solid fa-star-o" aria-hidden="true"></i>
+      <i class="fa-solid fa-star-o" aria-hidden="true"></i>
+      <i class="fa-solid fa-star-o" aria-hidden="true"></i>
+      <i class="fa-solid fa-star-o" aria-hidden="true"></i>
+    </div>
+    <h4>$33</h4>
+  </div>
+</div>
+<div class="adds"> loobngklhbfdlhdnlkhnmdklhbfnhhk</div>
+</div>
+        <script>
+            const btn = document.getElementById("im2")
+            const btn1 = document.getElementById("im3")
+            btn.addEventListener('click',
+            function img_change1(){
+                document.getElementById("im1").src="pic/fhs1_1.jpg";
+            })
+            btn1.addEventListener('click',
+            function img_change2(){
+                document.getElementById("im1").src="pic/fhs1_2.jpg";
+            })
+        </script>
+    </body>
+</html>
